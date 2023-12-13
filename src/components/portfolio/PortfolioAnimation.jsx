@@ -13,7 +13,7 @@ const breakpointColumnsObj = {
 };
 
 // const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
-const tabList = ["All"];
+const tabList = ["Todos"];
 const tabListContent = [
   {
     porftoliItems: [
