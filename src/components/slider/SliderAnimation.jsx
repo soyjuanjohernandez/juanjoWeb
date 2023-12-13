@@ -96,9 +96,7 @@ const Slider = () => {
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/juan_jose_informal.jpg"
-            })`,
+            backgroundImage: `url("/juanjoWeb/img/slider/juan_jose_informal.jpg")`,
           }}
         ></div>
       </section>

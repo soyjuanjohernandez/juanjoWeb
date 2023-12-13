@@ -18,7 +18,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/zapato.jpg",
+        img: "/juanjoWeb/img/portfolio/zapato.jpg",
         width: 400,
         height: 550,
         title: "Product",
@@ -29,7 +29,7 @@ const tabListContent = [
           "https://soyjuanjohernandez.github.io/clase-de-CSS-product-card/",
       },
       {
-        img: "/img/portfolio/social.jpg",
+        img: "/juanjoWeb/img/portfolio/social.jpg",
         width: 400,
         height: 400,
         title: "Social dashboard",
