@@ -28,16 +28,6 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div>
-          {/* <div className="hb-lang">
-            <ul className="nav">
-              <li className="active">
-                <a href="#">EN</a>
-              </li>
-              <li>
-                <a href="#">ES</a>
-              </li>
-            </ul>
-          </div> */}
         </div>
 
         <div className="container">
@@ -97,6 +87,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url("/juanjoWeb/img/slider/juan_jose_informal.jpg")`,
+            filter: "contrast(1.1) opacity(0.7)"
           }}
         ></div>
       </section>

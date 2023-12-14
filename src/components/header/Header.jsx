@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
 import {
   FiUser,
   FiBriefcase,
   FiFileText,
-  FiPhoneOutgoing,
 } from "react-icons/fi";
 import { FaHome, FaBlog } from "react-icons/fa";
 
@@ -31,12 +29,6 @@ const Header = () => {
       {/* nav bar */}
       <header className={click ? "header-left menu-open" : "header-left "}>
         <div className="scroll-bar">
-          {/* <div className="hl-top">
-            <div className="hl-logo">
-              <Link to="/">J</Link>
-            </div>
-          </div> */}
-          {/* End htl-top */}
 
           <Scrollspy
             className="nav nav-menu"
@@ -120,44 +112,6 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-            {/* <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip
-                  id="BLOG"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li> */}
-            {/* <li>
-              <a
-                className="nav-link"
-                href="#contactus"
-                data-tip
-                data-for="CONTACT"
-                onClick={handleClick}
-              >
-                <FiPhoneOutgoing />
-                <ReactTooltip
-                  id="CONTACT"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Contact</span>
-                </ReactTooltip>
-              </a>
-            </li> */}
           </Scrollspy>
         </div>
       </header>
