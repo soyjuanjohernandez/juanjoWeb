@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/juanjoWeb/static/css/main.056cab32.css",
-    "main.js": "/juanjoWeb/static/js/main.2d513baa.js",
+    "main.js": "/juanjoWeb/static/js/main.1aa7ff18.js",
     "static/js/27.bca998e3.chunk.js": "/juanjoWeb/static/js/27.bca998e3.chunk.js",
     "static/media/et-line.svg": "/juanjoWeb/static/media/et-line.3e441a4587befc7eeb4f.svg",
     "static/media/et-line.woff": "/juanjoWeb/static/media/et-line.d59b23856f66f9876c47.woff",
@@ -11,6 +11,6 @@
   },
   "entrypoints": [
     "static/css/main.056cab32.css",
-    "static/js/main.2d513baa.js"
+    "static/js/main.1aa7ff18.js"
   ]
 }
