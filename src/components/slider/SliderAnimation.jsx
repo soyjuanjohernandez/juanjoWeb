@@ -2,7 +2,7 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+57 301205564 ",
+
   email: " juanhernandez.code@gmail.com",
 };
 
@@ -23,7 +23,7 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
+            {/* <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a> */}
             <a href={`mailto:mail%20to:${conctInfo.email},com`}>
               {conctInfo.email}
             </a>
